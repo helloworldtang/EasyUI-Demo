@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Panel - JQuery EasyUI Demo by lyl</title>
+    <link rel="stylesheet" type="text/css" href="../../easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="../../easyui/themes/icon.css">
+    <script type="text/javascript" src="../../easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="../../easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body style="margin:100px;">
+    <h2>请查看script.js文件，观测对应源码产生的效果</h2>
+    <p>源码中演示了大量常用的功能，还有小部分不常用功能请自行查看EasyUI的官方文档</p>
+
+    <br><br>
+
+    <div class="easyui-panel" title="HTML生成面板" 
+        style="width: 400px; margin-bottom: 50px;"
+        data-options="closable:true">
+        <p>内容区域</p>
+    </div>
+
+    <div id="box">
+        <p>内容区域</p>
+    </div>
+
+    <div id="tt">
+        <a class="icon-add" onclick="javascript:alert('add');"> </a>
+        <a class="icon-cut" onclick="javascript:alert('cut');"> </a>
+        <a class="icon-save" onclick="javascript:alert('save');"> </a>
+    </div>
+</body>
+</html>
