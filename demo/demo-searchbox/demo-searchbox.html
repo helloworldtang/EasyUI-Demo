@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SearchBox - JQuery EasyUI Demo by lyl</title>
+    <link rel="stylesheet" type="text/css" href="../../easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="../../easyui/themes/icon.css">
+    <script type="text/javascript" src="../../easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="../../easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <script type="text/javascript">
+    	// 响应搜索按钮点击事件
+    	function search(name, value) {
+    		alert(name + "-" + value);
+    	}
+    </script>
+</head>
+<body style="margin:100px;">
+    <h2>请查看script.js文件，观测对应源码产生的效果</h2>
+    <p>源码中演示了大量常用的功能，还有小部分不常用功能请自行查看EasyUI的官方文档</p>
+    <p>SeachBox 组件依赖于 MenuButton 组件</p>
+
+    <br><br>
+
+    <!-- HTML形式 -->
+    <!-- <div class="easyui-searchbox" style="width: 300px;"
+    	data-options="menu:'#box',prompt:'请输入关键字',searcher:search"></div> -->
+
+    <div id="ss"></div>
+    <a id="reset-btn" class="easyui-linkbutton">重置</a>
+
+    <div id="box">
+        <div data-options="iconCls:'icon-ok'">所有频道</div>
+        <div name="sports">体育频道</div>
+    </div>
+</body>
+</html>

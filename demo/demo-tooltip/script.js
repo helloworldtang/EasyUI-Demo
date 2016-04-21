@@ -7,8 +7,8 @@ $(function(){
         // deltaY: 100,
         // showEvent: 'click',      // 鼠标点击的时候才显示提示框
         // hideEvent: 'dblclick',   // 鼠标双击的时候才隐藏提示框
-        showDelay: 500,          // 提示框出现延迟(ms)
-        hideDelay: 500,          // 提示框隐藏延迟(ms)
+        // showDelay: 500,          // 提示框出现延迟(ms)
+        // hideDelay: 500,          // 提示框隐藏延迟(ms)
         
         // 响应事件
         onShow: function(e) {

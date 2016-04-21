@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Combo - JQuery EasyUI Demo by lyl</title>
+    <link rel="stylesheet" type="text/css" href="../../easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="../../easyui/themes/icon.css">
+    <script type="text/javascript" src="../../easyui/jquery.min.js"></script>
+    <script type="text/javascript" src="../../easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <style type="text/css">
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+            padding-left: 10px;
+            line-height: 150%;
+        }
+
+        li:hover {
+            cursor: pointer;
+            background: #ddd;
+        }
+    </style>
+
+</head>
+<body style="margin:100px;">
+    <h2>请查看script.js文件，观测对应源码产生的效果</h2>
+    <p>源码中演示了大量常用的功能，还有小部分不常用功能请自行查看EasyUI的官方文档</p>
+    <p>Combo(自定义下拉框)组件依赖于ValidateBox组件</p>
+
+    <br>
+
+    <input id="box">
+
+    <ul id="food">
+        <!-- 以input[type=hidden]作为value, 以span作为text -->
+        <li><input type="hidden" value="01"/><span>煎饼果子</span></li>
+        <li><input type="hidden" value="02"/><span>牛腩米粉</span></li>
+        <li><input type="hidden" value="03"/><span>沙拉</span></li>
+        <li><input type="hidden" value="04"/><span>蛋黄派</span></li>
+        <li><input type="hidden" value="05"/><span>其它</span></li>
+    </ul>
+</body>
+</html>
